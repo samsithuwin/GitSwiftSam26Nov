@@ -7,72 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		227639BE2B4DEBF0006255CB /* SQLite in Frameworks */ = {isa = PBXBuildFile; productRef = 227639BD2B4DEBF0006255CB /* SQLite */; };
-		227639C02B4DEC36006255CB /* MeetingMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227639BF2B4DEC36006255CB /* MeetingMainView.swift */; };
-		227639C22B4DEDBA006255CB /* CreateMeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227639C12B4DEDBA006255CB /* CreateMeetingView.swift */; };
-		227639C52B4DF2FA006255CB /* motionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227639C42B4DF2FA006255CB /* motionView.swift */; };
-		22BE1FC72B13A72E00244F57 /* GitSwiftSam26NovApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BE1FC62B13A72E00244F57 /* GitSwiftSam26NovApp.swift */; };
-		22BE1FC92B13A72E00244F57 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BE1FC82B13A72E00244F57 /* ContentView.swift */; };
-		22BE1FCB2B13A72E00244F57 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BE1FCA2B13A72E00244F57 /* Item.swift */; };
-		22BE1FCD2B13A72F00244F57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22BE1FCC2B13A72F00244F57 /* Assets.xcassets */; };
-		22BE1FD12B13A72F00244F57 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22BE1FD02B13A72F00244F57 /* Preview Assets.xcassets */; };
-		22BE1FDB2B13A72F00244F57 /* GitSwiftSam26NovTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BE1FDA2B13A72F00244F57 /* GitSwiftSam26NovTests.swift */; };
-		22BE1FE52B13A72F00244F57 /* GitSwiftSam26NovUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BE1FE42B13A72F00244F57 /* GitSwiftSam26NovUITests.swift */; };
-		22BE1FE72B13A72F00244F57 /* GitSwiftSam26NovUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BE1FE62B13A72F00244F57 /* GitSwiftSam26NovUITestsLaunchTests.swift */; };
+		22FE352A2B19191B000CF36E /* MOrganizer4RRApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FE35292B19191B000CF36E /* MOrganizer4RRApp.swift */; };
+		22FE352C2B19191B000CF36E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FE352B2B19191B000CF36E /* ContentView.swift */; };
+		22FE352E2B19191B000CF36E /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FE352D2B19191B000CF36E /* Item.swift */; };
+		22FE35302B19191C000CF36E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22FE352F2B19191C000CF36E /* Assets.xcassets */; };
+		22FE35342B19191C000CF36E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22FE35332B19191C000CF36E /* Preview Assets.xcassets */; };
+		22FE353E2B19191C000CF36E /* MOrganizer4RRTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FE353D2B19191C000CF36E /* MOrganizer4RRTests.swift */; };
+		22FE35482B19191C000CF36E /* MOrganizer4RRUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FE35472B19191C000CF36E /* MOrganizer4RRUITests.swift */; };
+		22FE354A2B19191C000CF36E /* MOrganizer4RRUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FE35492B19191C000CF36E /* MOrganizer4RRUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		22BE1FD72B13A72F00244F57 /* PBXContainerItemProxy */ = {
+		22FE353A2B19191C000CF36E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 22BE1FBB2B13A72E00244F57 /* Project object */;
+			containerPortal = 22FE351E2B19191B000CF36E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 22BE1FC22B13A72E00244F57;
-			remoteInfo = GitSwiftSam26Nov;
+			remoteGlobalIDString = 22FE35252B19191B000CF36E;
+			remoteInfo = MOrganizer4RR;
 		};
-		22BE1FE12B13A72F00244F57 /* PBXContainerItemProxy */ = {
+		22FE35442B19191C000CF36E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 22BE1FBB2B13A72E00244F57 /* Project object */;
+			containerPortal = 22FE351E2B19191B000CF36E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 22BE1FC22B13A72E00244F57;
-			remoteInfo = GitSwiftSam26Nov;
+			remoteGlobalIDString = 22FE35252B19191B000CF36E;
+			remoteInfo = MOrganizer4RR;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		227639BF2B4DEC36006255CB /* MeetingMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingMainView.swift; sourceTree = "<group>"; };
-		227639C12B4DEDBA006255CB /* CreateMeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateMeetingView.swift; sourceTree = "<group>"; };
-		227639C42B4DF2FA006255CB /* motionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = motionView.swift; sourceTree = "<group>"; };
-		22BE1FC32B13A72E00244F57 /* GitSwiftSam26Nov.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitSwiftSam26Nov.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		22BE1FC62B13A72E00244F57 /* GitSwiftSam26NovApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitSwiftSam26NovApp.swift; sourceTree = "<group>"; };
-		22BE1FC82B13A72E00244F57 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		22BE1FCA2B13A72E00244F57 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
-		22BE1FCC2B13A72F00244F57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		22BE1FCE2B13A72F00244F57 /* GitSwiftSam26Nov.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GitSwiftSam26Nov.entitlements; sourceTree = "<group>"; };
-		22BE1FD02B13A72F00244F57 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		22BE1FD62B13A72F00244F57 /* GitSwiftSam26NovTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitSwiftSam26NovTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		22BE1FDA2B13A72F00244F57 /* GitSwiftSam26NovTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitSwiftSam26NovTests.swift; sourceTree = "<group>"; };
-		22BE1FE02B13A72F00244F57 /* GitSwiftSam26NovUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitSwiftSam26NovUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		22BE1FE42B13A72F00244F57 /* GitSwiftSam26NovUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitSwiftSam26NovUITests.swift; sourceTree = "<group>"; };
-		22BE1FE62B13A72F00244F57 /* GitSwiftSam26NovUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitSwiftSam26NovUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		22FE35262B19191B000CF36E /* MOrganizer4RR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MOrganizer4RR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22FE35292B19191B000CF36E /* MOrganizer4RRApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MOrganizer4RRApp.swift; sourceTree = "<group>"; };
+		22FE352B2B19191B000CF36E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		22FE352D2B19191B000CF36E /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		22FE352F2B19191C000CF36E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22FE35312B19191C000CF36E /* MOrganizer4RR.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MOrganizer4RR.entitlements; sourceTree = "<group>"; };
+		22FE35332B19191C000CF36E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		22FE35392B19191C000CF36E /* MOrganizer4RRTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MOrganizer4RRTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22FE353D2B19191C000CF36E /* MOrganizer4RRTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MOrganizer4RRTests.swift; sourceTree = "<group>"; };
+		22FE35432B19191C000CF36E /* MOrganizer4RRUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MOrganizer4RRUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22FE35472B19191C000CF36E /* MOrganizer4RRUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MOrganizer4RRUITests.swift; sourceTree = "<group>"; };
+		22FE35492B19191C000CF36E /* MOrganizer4RRUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MOrganizer4RRUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		22BE1FC02B13A72E00244F57 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				227639BE2B4DEBF0006255CB /* SQLite in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		22BE1FD32B13A72F00244F57 /* Frameworks */ = {
+		22FE35232B19191B000CF36E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		22BE1FDD2B13A72F00244F57 /* Frameworks */ = {
+		22FE35362B19191C000CF36E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22FE35402B19191C000CF36E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -82,158 +74,144 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		227639C32B4DEDF3006255CB /* ViewControllers */ = {
+		22FE351D2B19191B000CF36E = {
 			isa = PBXGroup;
 			children = (
-				227639BF2B4DEC36006255CB /* MeetingMainView.swift */,
-				227639C42B4DF2FA006255CB /* motionView.swift */,
-				227639C12B4DEDBA006255CB /* CreateMeetingView.swift */,
-			);
-			path = ViewControllers;
-			sourceTree = "<group>";
-		};
-		22BE1FBA2B13A72E00244F57 = {
-			isa = PBXGroup;
-			children = (
-				22BE1FC52B13A72E00244F57 /* GitSwiftSam26Nov */,
-				22BE1FD92B13A72F00244F57 /* GitSwiftSam26NovTests */,
-				22BE1FE32B13A72F00244F57 /* GitSwiftSam26NovUITests */,
-				22BE1FC42B13A72E00244F57 /* Products */,
+				22FE35282B19191B000CF36E /* MOrganizer4RR */,
+				22FE353C2B19191C000CF36E /* MOrganizer4RRTests */,
+				22FE35462B19191C000CF36E /* MOrganizer4RRUITests */,
+				22FE35272B19191B000CF36E /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		22BE1FC42B13A72E00244F57 /* Products */ = {
+		22FE35272B19191B000CF36E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				22BE1FC32B13A72E00244F57 /* GitSwiftSam26Nov.app */,
-				22BE1FD62B13A72F00244F57 /* GitSwiftSam26NovTests.xctest */,
-				22BE1FE02B13A72F00244F57 /* GitSwiftSam26NovUITests.xctest */,
+				22FE35262B19191B000CF36E /* MOrganizer4RR.app */,
+				22FE35392B19191C000CF36E /* MOrganizer4RRTests.xctest */,
+				22FE35432B19191C000CF36E /* MOrganizer4RRUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		22BE1FC52B13A72E00244F57 /* GitSwiftSam26Nov */ = {
+		22FE35282B19191B000CF36E /* MOrganizer4RR */ = {
 			isa = PBXGroup;
 			children = (
-				22BE1FC62B13A72E00244F57 /* GitSwiftSam26NovApp.swift */,
-				22BE1FC82B13A72E00244F57 /* ContentView.swift */,
-				22BE1FCA2B13A72E00244F57 /* Item.swift */,
-				227639C32B4DEDF3006255CB /* ViewControllers */,
-				22BE1FCC2B13A72F00244F57 /* Assets.xcassets */,
-				22BE1FCE2B13A72F00244F57 /* GitSwiftSam26Nov.entitlements */,
-				22BE1FCF2B13A72F00244F57 /* Preview Content */,
+				22FE35292B19191B000CF36E /* MOrganizer4RRApp.swift */,
+				22FE352B2B19191B000CF36E /* ContentView.swift */,
+				22FE352D2B19191B000CF36E /* Item.swift */,
+				22FE352F2B19191C000CF36E /* Assets.xcassets */,
+				22FE35312B19191C000CF36E /* MOrganizer4RR.entitlements */,
+				22FE35322B19191C000CF36E /* Preview Content */,
 			);
-			path = GitSwiftSam26Nov;
+			path = MOrganizer4RR;
 			sourceTree = "<group>";
 		};
-		22BE1FCF2B13A72F00244F57 /* Preview Content */ = {
+		22FE35322B19191C000CF36E /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				22BE1FD02B13A72F00244F57 /* Preview Assets.xcassets */,
+				22FE35332B19191C000CF36E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		22BE1FD92B13A72F00244F57 /* GitSwiftSam26NovTests */ = {
+		22FE353C2B19191C000CF36E /* MOrganizer4RRTests */ = {
 			isa = PBXGroup;
 			children = (
-				22BE1FDA2B13A72F00244F57 /* GitSwiftSam26NovTests.swift */,
+				22FE353D2B19191C000CF36E /* MOrganizer4RRTests.swift */,
 			);
-			path = GitSwiftSam26NovTests;
+			path = MOrganizer4RRTests;
 			sourceTree = "<group>";
 		};
-		22BE1FE32B13A72F00244F57 /* GitSwiftSam26NovUITests */ = {
+		22FE35462B19191C000CF36E /* MOrganizer4RRUITests */ = {
 			isa = PBXGroup;
 			children = (
-				22BE1FE42B13A72F00244F57 /* GitSwiftSam26NovUITests.swift */,
-				22BE1FE62B13A72F00244F57 /* GitSwiftSam26NovUITestsLaunchTests.swift */,
+				22FE35472B19191C000CF36E /* MOrganizer4RRUITests.swift */,
+				22FE35492B19191C000CF36E /* MOrganizer4RRUITestsLaunchTests.swift */,
 			);
-			path = GitSwiftSam26NovUITests;
+			path = MOrganizer4RRUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		22BE1FC22B13A72E00244F57 /* GitSwiftSam26Nov */ = {
+		22FE35252B19191B000CF36E /* MOrganizer4RR */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 22BE1FEA2B13A72F00244F57 /* Build configuration list for PBXNativeTarget "GitSwiftSam26Nov" */;
+			buildConfigurationList = 22FE354D2B19191C000CF36E /* Build configuration list for PBXNativeTarget "MOrganizer4RR" */;
 			buildPhases = (
-				22BE1FBF2B13A72E00244F57 /* Sources */,
-				22BE1FC02B13A72E00244F57 /* Frameworks */,
-				22BE1FC12B13A72E00244F57 /* Resources */,
+				22FE35222B19191B000CF36E /* Sources */,
+				22FE35232B19191B000CF36E /* Frameworks */,
+				22FE35242B19191B000CF36E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = GitSwiftSam26Nov;
-			packageProductDependencies = (
-				227639BD2B4DEBF0006255CB /* SQLite */,
-			);
-			productName = GitSwiftSam26Nov;
-			productReference = 22BE1FC32B13A72E00244F57 /* GitSwiftSam26Nov.app */;
+			name = MOrganizer4RR;
+			productName = MOrganizer4RR;
+			productReference = 22FE35262B19191B000CF36E /* MOrganizer4RR.app */;
 			productType = "com.apple.product-type.application";
 		};
-		22BE1FD52B13A72F00244F57 /* GitSwiftSam26NovTests */ = {
+		22FE35382B19191C000CF36E /* MOrganizer4RRTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 22BE1FED2B13A72F00244F57 /* Build configuration list for PBXNativeTarget "GitSwiftSam26NovTests" */;
+			buildConfigurationList = 22FE35502B19191C000CF36E /* Build configuration list for PBXNativeTarget "MOrganizer4RRTests" */;
 			buildPhases = (
-				22BE1FD22B13A72F00244F57 /* Sources */,
-				22BE1FD32B13A72F00244F57 /* Frameworks */,
-				22BE1FD42B13A72F00244F57 /* Resources */,
+				22FE35352B19191C000CF36E /* Sources */,
+				22FE35362B19191C000CF36E /* Frameworks */,
+				22FE35372B19191C000CF36E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				22BE1FD82B13A72F00244F57 /* PBXTargetDependency */,
+				22FE353B2B19191C000CF36E /* PBXTargetDependency */,
 			);
-			name = GitSwiftSam26NovTests;
-			productName = GitSwiftSam26NovTests;
-			productReference = 22BE1FD62B13A72F00244F57 /* GitSwiftSam26NovTests.xctest */;
+			name = MOrganizer4RRTests;
+			productName = MOrganizer4RRTests;
+			productReference = 22FE35392B19191C000CF36E /* MOrganizer4RRTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		22BE1FDF2B13A72F00244F57 /* GitSwiftSam26NovUITests */ = {
+		22FE35422B19191C000CF36E /* MOrganizer4RRUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 22BE1FF02B13A72F00244F57 /* Build configuration list for PBXNativeTarget "GitSwiftSam26NovUITests" */;
+			buildConfigurationList = 22FE35532B19191C000CF36E /* Build configuration list for PBXNativeTarget "MOrganizer4RRUITests" */;
 			buildPhases = (
-				22BE1FDC2B13A72F00244F57 /* Sources */,
-				22BE1FDD2B13A72F00244F57 /* Frameworks */,
-				22BE1FDE2B13A72F00244F57 /* Resources */,
+				22FE353F2B19191C000CF36E /* Sources */,
+				22FE35402B19191C000CF36E /* Frameworks */,
+				22FE35412B19191C000CF36E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				22BE1FE22B13A72F00244F57 /* PBXTargetDependency */,
+				22FE35452B19191C000CF36E /* PBXTargetDependency */,
 			);
-			name = GitSwiftSam26NovUITests;
-			productName = GitSwiftSam26NovUITests;
-			productReference = 22BE1FE02B13A72F00244F57 /* GitSwiftSam26NovUITests.xctest */;
+			name = MOrganizer4RRUITests;
+			productName = MOrganizer4RRUITests;
+			productReference = 22FE35432B19191C000CF36E /* MOrganizer4RRUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		22BE1FBB2B13A72E00244F57 /* Project object */ = {
+		22FE351E2B19191B000CF36E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					22BE1FC22B13A72E00244F57 = {
+					22FE35252B19191B000CF36E = {
 						CreatedOnToolsVersion = 15.0.1;
 					};
-					22BE1FD52B13A72F00244F57 = {
+					22FE35382B19191C000CF36E = {
 						CreatedOnToolsVersion = 15.0.1;
-						TestTargetID = 22BE1FC22B13A72E00244F57;
+						TestTargetID = 22FE35252B19191B000CF36E;
 					};
-					22BE1FDF2B13A72F00244F57 = {
+					22FE35422B19191C000CF36E = {
 						CreatedOnToolsVersion = 15.0.1;
-						TestTargetID = 22BE1FC22B13A72E00244F57;
+						TestTargetID = 22FE35252B19191B000CF36E;
 					};
 				};
 			};
-			buildConfigurationList = 22BE1FBE2B13A72E00244F57 /* Build configuration list for PBXProject "GitSwiftSam26Nov" */;
+			buildConfigurationList = 22FE35212B19191B000CF36E /* Build configuration list for PBXProject "MOrganizer4RR" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -241,39 +219,36 @@
 				en,
 				Base,
 			);
-			mainGroup = 22BE1FBA2B13A72E00244F57;
-			packageReferences = (
-				227639BC2B4DEBF0006255CB /* XCRemoteSwiftPackageReference "SQLite.swift" */,
-			);
-			productRefGroup = 22BE1FC42B13A72E00244F57 /* Products */;
+			mainGroup = 22FE351D2B19191B000CF36E;
+			productRefGroup = 22FE35272B19191B000CF36E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				22BE1FC22B13A72E00244F57 /* GitSwiftSam26Nov */,
-				22BE1FD52B13A72F00244F57 /* GitSwiftSam26NovTests */,
-				22BE1FDF2B13A72F00244F57 /* GitSwiftSam26NovUITests */,
+				22FE35252B19191B000CF36E /* MOrganizer4RR */,
+				22FE35382B19191C000CF36E /* MOrganizer4RRTests */,
+				22FE35422B19191C000CF36E /* MOrganizer4RRUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		22BE1FC12B13A72E00244F57 /* Resources */ = {
+		22FE35242B19191B000CF36E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22BE1FD12B13A72F00244F57 /* Preview Assets.xcassets in Resources */,
-				22BE1FCD2B13A72F00244F57 /* Assets.xcassets in Resources */,
+				22FE35342B19191C000CF36E /* Preview Assets.xcassets in Resources */,
+				22FE35302B19191C000CF36E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		22BE1FD42B13A72F00244F57 /* Resources */ = {
+		22FE35372B19191C000CF36E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		22BE1FDE2B13A72F00244F57 /* Resources */ = {
+		22FE35412B19191C000CF36E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -283,53 +258,50 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		22BE1FBF2B13A72E00244F57 /* Sources */ = {
+		22FE35222B19191B000CF36E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22BE1FC92B13A72E00244F57 /* ContentView.swift in Sources */,
-				22BE1FCB2B13A72E00244F57 /* Item.swift in Sources */,
-				227639C52B4DF2FA006255CB /* motionView.swift in Sources */,
-				227639C22B4DEDBA006255CB /* CreateMeetingView.swift in Sources */,
-				227639C02B4DEC36006255CB /* MeetingMainView.swift in Sources */,
-				22BE1FC72B13A72E00244F57 /* GitSwiftSam26NovApp.swift in Sources */,
+				22FE352C2B19191B000CF36E /* ContentView.swift in Sources */,
+				22FE352E2B19191B000CF36E /* Item.swift in Sources */,
+				22FE352A2B19191B000CF36E /* MOrganizer4RRApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		22BE1FD22B13A72F00244F57 /* Sources */ = {
+		22FE35352B19191C000CF36E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22BE1FDB2B13A72F00244F57 /* GitSwiftSam26NovTests.swift in Sources */,
+				22FE353E2B19191C000CF36E /* MOrganizer4RRTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		22BE1FDC2B13A72F00244F57 /* Sources */ = {
+		22FE353F2B19191C000CF36E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22BE1FE52B13A72F00244F57 /* GitSwiftSam26NovUITests.swift in Sources */,
-				22BE1FE72B13A72F00244F57 /* GitSwiftSam26NovUITestsLaunchTests.swift in Sources */,
+				22FE35482B19191C000CF36E /* MOrganizer4RRUITests.swift in Sources */,
+				22FE354A2B19191C000CF36E /* MOrganizer4RRUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		22BE1FD82B13A72F00244F57 /* PBXTargetDependency */ = {
+		22FE353B2B19191C000CF36E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 22BE1FC22B13A72E00244F57 /* GitSwiftSam26Nov */;
-			targetProxy = 22BE1FD72B13A72F00244F57 /* PBXContainerItemProxy */;
+			target = 22FE35252B19191B000CF36E /* MOrganizer4RR */;
+			targetProxy = 22FE353A2B19191C000CF36E /* PBXContainerItemProxy */;
 		};
-		22BE1FE22B13A72F00244F57 /* PBXTargetDependency */ = {
+		22FE35452B19191C000CF36E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 22BE1FC22B13A72E00244F57 /* GitSwiftSam26Nov */;
-			targetProxy = 22BE1FE12B13A72F00244F57 /* PBXContainerItemProxy */;
+			target = 22FE35252B19191B000CF36E /* MOrganizer4RR */;
+			targetProxy = 22FE35442B19191C000CF36E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		22BE1FE82B13A72F00244F57 /* Debug */ = {
+		22FE354B2B19191C000CF36E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -390,7 +362,7 @@
 			};
 			name = Debug;
 		};
-		22BE1FE92B13A72F00244F57 /* Release */ = {
+		22FE354C2B19191C000CF36E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -443,15 +415,15 @@
 			};
 			name = Release;
 		};
-		22BE1FEB2B13A72F00244F57 /* Debug */ = {
+		22FE354E2B19191C000CF36E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = GitSwiftSam26Nov/GitSwiftSam26Nov.entitlements;
+				CODE_SIGN_ENTITLEMENTS = MOrganizer4RR/MOrganizer4RR.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"GitSwiftSam26Nov/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"MOrganizer4RR/Preview Content\"";
 				DEVELOPMENT_TEAM = 7QZP6XH48W;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -471,7 +443,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = abcd.GitSwiftSam26Nov;
+				PRODUCT_BUNDLE_IDENTIFIER = abcd.MOrganizer4RR;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -481,15 +453,15 @@
 			};
 			name = Debug;
 		};
-		22BE1FEC2B13A72F00244F57 /* Release */ = {
+		22FE354F2B19191C000CF36E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = GitSwiftSam26Nov/GitSwiftSam26Nov.entitlements;
+				CODE_SIGN_ENTITLEMENTS = MOrganizer4RR/MOrganizer4RR.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"GitSwiftSam26Nov/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"MOrganizer4RR/Preview Content\"";
 				DEVELOPMENT_TEAM = 7QZP6XH48W;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -509,7 +481,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = abcd.GitSwiftSam26Nov;
+				PRODUCT_BUNDLE_IDENTIFIER = abcd.MOrganizer4RR;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -519,7 +491,7 @@
 			};
 			name = Release;
 		};
-		22BE1FEE2B13A72F00244F57 /* Debug */ = {
+		22FE35512B19191C000CF36E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -531,18 +503,18 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = abcd.GitSwiftSam26NovTests;
+				PRODUCT_BUNDLE_IDENTIFIER = abcd.MOrganizer4RRTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GitSwiftSam26Nov.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GitSwiftSam26Nov";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MOrganizer4RR.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MOrganizer4RR";
 			};
 			name = Debug;
 		};
-		22BE1FEF2B13A72F00244F57 /* Release */ = {
+		22FE35522B19191C000CF36E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -554,18 +526,18 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = abcd.GitSwiftSam26NovTests;
+				PRODUCT_BUNDLE_IDENTIFIER = abcd.MOrganizer4RRTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GitSwiftSam26Nov.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GitSwiftSam26Nov";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MOrganizer4RR.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MOrganizer4RR";
 			};
 			name = Release;
 		};
-		22BE1FF12B13A72F00244F57 /* Debug */ = {
+		22FE35542B19191C000CF36E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -576,18 +548,18 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = abcd.GitSwiftSam26NovUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = abcd.MOrganizer4RRUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = GitSwiftSam26Nov;
+				TEST_TARGET_NAME = MOrganizer4RR;
 			};
 			name = Debug;
 		};
-		22BE1FF22B13A72F00244F57 /* Release */ = {
+		22FE35552B19191C000CF36E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -598,76 +570,57 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = abcd.GitSwiftSam26NovUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = abcd.MOrganizer4RRUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = GitSwiftSam26Nov;
+				TEST_TARGET_NAME = MOrganizer4RR;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		22BE1FBE2B13A72E00244F57 /* Build configuration list for PBXProject "GitSwiftSam26Nov" */ = {
+		22FE35212B19191B000CF36E /* Build configuration list for PBXProject "MOrganizer4RR" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				22BE1FE82B13A72F00244F57 /* Debug */,
-				22BE1FE92B13A72F00244F57 /* Release */,
+				22FE354B2B19191C000CF36E /* Debug */,
+				22FE354C2B19191C000CF36E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		22BE1FEA2B13A72F00244F57 /* Build configuration list for PBXNativeTarget "GitSwiftSam26Nov" */ = {
+		22FE354D2B19191C000CF36E /* Build configuration list for PBXNativeTarget "MOrganizer4RR" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				22BE1FEB2B13A72F00244F57 /* Debug */,
-				22BE1FEC2B13A72F00244F57 /* Release */,
+				22FE354E2B19191C000CF36E /* Debug */,
+				22FE354F2B19191C000CF36E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		22BE1FED2B13A72F00244F57 /* Build configuration list for PBXNativeTarget "GitSwiftSam26NovTests" */ = {
+		22FE35502B19191C000CF36E /* Build configuration list for PBXNativeTarget "MOrganizer4RRTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				22BE1FEE2B13A72F00244F57 /* Debug */,
-				22BE1FEF2B13A72F00244F57 /* Release */,
+				22FE35512B19191C000CF36E /* Debug */,
+				22FE35522B19191C000CF36E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		22BE1FF02B13A72F00244F57 /* Build configuration list for PBXNativeTarget "GitSwiftSam26NovUITests" */ = {
+		22FE35532B19191C000CF36E /* Build configuration list for PBXNativeTarget "MOrganizer4RRUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				22BE1FF12B13A72F00244F57 /* Debug */,
-				22BE1FF22B13A72F00244F57 /* Release */,
+				22FE35542B19191C000CF36E /* Debug */,
+				22FE35552B19191C000CF36E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		227639BC2B4DEBF0006255CB /* XCRemoteSwiftPackageReference "SQLite.swift" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/stephencelis/SQLite.swift.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 0.14.1;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		227639BD2B4DEBF0006255CB /* SQLite */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 227639BC2B4DEBF0006255CB /* XCRemoteSwiftPackageReference "SQLite.swift" */;
-			productName = SQLite;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = 22BE1FBB2B13A72E00244F57 /* Project object */;
+	rootObject = 22FE351E2B19191B000CF36E /* Project object */;
 }

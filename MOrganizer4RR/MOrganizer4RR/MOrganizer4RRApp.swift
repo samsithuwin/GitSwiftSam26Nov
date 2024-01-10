@@ -1,15 +1,15 @@
 //
-//  GitSwiftSam26NovApp.swift
-//  GitSwiftSam26Nov
+//  MOrganizer4RRApp.swift
+//  MOrganizer4RR
 //
-//  Created by sam on 11/26/23.
+//  Created by sam on 11/30/23.
 //
 
 import SwiftUI
 import SwiftData
 
 @main
-struct GitSwiftSam26NovApp: App {
+struct MOrganizer4RRApp: App {
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
             Item.self,
@@ -25,8 +25,7 @@ struct GitSwiftSam26NovApp: App {
 
     var body: some Scene {
         WindowGroup {
-            //ContentView()
-            MeetingMainView()
+            ContentView()
         }
         .modelContainer(sharedModelContainer)
     }

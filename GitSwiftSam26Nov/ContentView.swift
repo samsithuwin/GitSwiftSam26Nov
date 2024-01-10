@@ -6,61 +6,58 @@
 //
 
 import SwiftUI
-import SwiftData
+
+struct Meeting {
+    var title: String
+    var description: String
+}
 
 struct ContentView: View {
-    @Environment(\.modelContext) private var modelContext
-    @Query private var items: [Item]
-
+    @State private var isPresented = false
+    let meetings = [
+        Meeting(title: "Motion", description: "I move that ..."),
+        Meeting(title: "Debate", description: "Call the question+2nd"),
+        Meeting(title: "Vote", description: "Yay Nay Abstrain"),
+        Meeting(title: "Result", description: "Carry Fail Amend"),
+    ]
+    
     var body: some View {
-        NavigationSplitView {
+        NavigationView {
             List {
-                ForEach(items) { item in
-                    NavigationLink {
-                        Text("Item at \(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))")
-                    } label: {
-                        Text(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))
-                    }
-                }
-                .onDelete(perform: deleteItems)
-            }
-#if os(macOS)
-            .navigationSplitViewColumnWidth(min: 180, ideal: 200)
-#endif
-            .toolbar {
-#if os(iOS)
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    EditButton()
-                }
-#endif
-                ToolbarItem {
-                    Button(action: addItem) {
-                        Label("Add Item", systemImage: "plus")
+                ForEach(meetings, id: \.title) { meeting in
+                    NavigationLink(destination: DebatePage(meeting: meeting)) {
+                        Text(meeting.title)
                     }
                 }
             }
-        } detail: {
-            Text("Select an item")
-        }
-    }
-
-    private func addItem() {
-        withAnimation {
-            let newItem = Item(timestamp: Date())
-            modelContext.insert(newItem)
-        }
-    }
-
-    private func deleteItems(offsets: IndexSet) {
-        withAnimation {
-            for index in offsets {
-                modelContext.delete(items[index])
-            }
+            .navigationTitle("Home MO")
+           
         }
     }
 }
 
-#Preview {
-    ContentView()
-        .modelContainer(for: Item.self, inMemory: true)
+struct DebatePage: View {
+    var meeting: Meeting
+    
+    var body: some View {
+        VStack {
+            Text(meeting.title)
+                .font(.largeTitle)
+                .padding()
+            
+            Text(meeting.description)
+                .padding()
+            
+            // Add more debate-related components as needed
+        }
+        .navigationTitle("Meeting Organizer")
+    }
 }
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
+}
+
+     
