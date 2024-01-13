@@ -6,11 +6,14 @@
 //
 
 import SwiftUI
+import SQLite3
 
 struct MeetingMainView: View {
     
     
     @State var isAddingMeeting: Bool = false
+    
+  
     
     var body: some View {
         NavigationView{

@@ -19,6 +19,9 @@
 		22BE1FDB2B13A72F00244F57 /* GitSwiftSam26NovTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BE1FDA2B13A72F00244F57 /* GitSwiftSam26NovTests.swift */; };
 		22BE1FE52B13A72F00244F57 /* GitSwiftSam26NovUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BE1FE42B13A72F00244F57 /* GitSwiftSam26NovUITests.swift */; };
 		22BE1FE72B13A72F00244F57 /* GitSwiftSam26NovUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BE1FE62B13A72F00244F57 /* GitSwiftSam26NovUITestsLaunchTests.swift */; };
+		22E15D1C2B521BC500241C9D /* db.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E15D1B2B521BC500241C9D /* db.swift */; };
+		22E7FFA62B506EA500A1B398 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22E7FFA52B506EA500A1B398 /* Storyboard.storyboard */; };
+		22E7FFAC2B507B8B00A1B398 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 22E7FFAA2B507B8B00A1B398 /* Model.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +57,12 @@
 		22BE1FE02B13A72F00244F57 /* GitSwiftSam26NovUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitSwiftSam26NovUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22BE1FE42B13A72F00244F57 /* GitSwiftSam26NovUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitSwiftSam26NovUITests.swift; sourceTree = "<group>"; };
 		22BE1FE62B13A72F00244F57 /* GitSwiftSam26NovUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitSwiftSam26NovUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		22E15D192B521B0C00241C9D /* 12JanSAK.db */ = {isa = PBXFileReference; lastKnownFileType = file; name = 12JanSAK.db; path = ../../../2024Sqlite/12JanSAK.db; sourceTree = "<group>"; };
+		22E15D1A2B521B2400241C9D /* 12JanSAK.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = 12JanSAK.db; sourceTree = "<group>"; };
+		22E15D1B2B521BC500241C9D /* db.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = db.swift; sourceTree = "<group>"; };
+		22E15D1D2B521C7000241C9D /* 12JanSAK.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = 12JanSAK.db; sourceTree = "<group>"; };
+		22E7FFA52B506EA500A1B398 /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		22E7FFAB2B507B8B00A1B398 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +97,8 @@
 				227639BF2B4DEC36006255CB /* MeetingMainView.swift */,
 				227639C42B4DF2FA006255CB /* motionView.swift */,
 				227639C12B4DEDBA006255CB /* CreateMeetingView.swift */,
+				22E7FFA52B506EA500A1B398 /* Storyboard.storyboard */,
+				22E7FFA92B507B3D00A1B398 /* SQLiteManager */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -121,7 +132,9 @@
 				227639C32B4DEDF3006255CB /* ViewControllers */,
 				22BE1FCC2B13A72F00244F57 /* Assets.xcassets */,
 				22BE1FCE2B13A72F00244F57 /* GitSwiftSam26Nov.entitlements */,
+				22E15D192B521B0C00241C9D /* 12JanSAK.db */,
 				22BE1FCF2B13A72F00244F57 /* Preview Content */,
+				22E15D1B2B521BC500241C9D /* db.swift */,
 			);
 			path = GitSwiftSam26Nov;
 			sourceTree = "<group>";
@@ -129,6 +142,7 @@
 		22BE1FCF2B13A72F00244F57 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				22E15D1D2B521C7000241C9D /* 12JanSAK.db */,
 				22BE1FD02B13A72F00244F57 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -149,6 +163,15 @@
 				22BE1FE62B13A72F00244F57 /* GitSwiftSam26NovUITestsLaunchTests.swift */,
 			);
 			path = GitSwiftSam26NovUITests;
+			sourceTree = "<group>";
+		};
+		22E7FFA92B507B3D00A1B398 /* SQLiteManager */ = {
+			isa = PBXGroup;
+			children = (
+				22E15D1A2B521B2400241C9D /* 12JanSAK.db */,
+				22E7FFAA2B507B8B00A1B398 /* Model.xcdatamodeld */,
+			);
+			path = SQLiteManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +286,7 @@
 			files = (
 				22BE1FD12B13A72F00244F57 /* Preview Assets.xcassets in Resources */,
 				22BE1FCD2B13A72F00244F57 /* Assets.xcassets in Resources */,
+				22E7FFA62B506EA500A1B398 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,8 +312,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				22BE1FC92B13A72E00244F57 /* ContentView.swift in Sources */,
+				22E15D1C2B521BC500241C9D /* db.swift in Sources */,
 				22BE1FCB2B13A72E00244F57 /* Item.swift in Sources */,
 				227639C52B4DF2FA006255CB /* motionView.swift in Sources */,
+				22E7FFAC2B507B8B00A1B398 /* Model.xcdatamodeld in Sources */,
 				227639C22B4DEDBA006255CB /* CreateMeetingView.swift in Sources */,
 				227639C02B4DEC36006255CB /* MeetingMainView.swift in Sources */,
 				22BE1FC72B13A72E00244F57 /* GitSwiftSam26NovApp.swift in Sources */,
@@ -668,6 +694,19 @@
 			productName = SQLite;
 		};
 /* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		22E7FFAA2B507B8B00A1B398 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				22E7FFAB2B507B8B00A1B398 /* Model.xcdatamodel */,
+			);
+			currentVersion = 22E7FFAB2B507B8B00A1B398 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 22BE1FBB2B13A72E00244F57 /* Project object */;
 }
