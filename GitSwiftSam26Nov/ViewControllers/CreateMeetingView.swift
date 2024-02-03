@@ -35,6 +35,8 @@ struct CreateMeetingView: View {
                    
                     Button(action: {
                         saveMeeting.toggle()
+                        //TODO: insert the information to DB
+                        connectDataBase()
                     }) {
                         Text("Save Meeting")
                     }

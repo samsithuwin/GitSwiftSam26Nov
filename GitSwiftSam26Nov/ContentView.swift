@@ -33,6 +33,9 @@ struct ContentView: View {
             .navigationTitle("Home MO")
            
         }
+        .onAppear() {
+            print("hello from the Content View!")
+        }
     }
 }
 
