@@ -17,7 +17,7 @@ struct ContentView: View {
     let meetings = [
         Meeting(title: "Motion", description: "I move that ..."),
         Meeting(title: "Debate", description: "Call the question+2nd"),
-        Meeting(title: "Vote", description: "Yay Nay Abstrain"),
+        Meeting(title: "Vote", description: "Yay Nay Abstrain 123"),
         Meeting(title: "Result", description: "Carry Fail Amend"),
     ]
     
