@@ -7,8 +7,10 @@
 
 import SwiftUI
 
+
 struct CreateMeetingView: View {
-    
+    @State private var m1Name = ""
+    @State private var m1Date  = ""
     @State var saveMeeting :Bool = false
     
     var body: some View {
@@ -17,7 +19,12 @@ struct CreateMeetingView: View {
             
             VStack{
                 Text("Meeting Name:")
+                TextField(" CheckIn ", text: $m1Name)
+                    .textFieldStyle(RoundedBorderTextFieldStyle())
+
                 Text("Meeting Date:" )
+                TextField(" CheckIn ", text: $m1Date)
+                    .textFieldStyle(RoundedBorderTextFieldStyle())
                 Text("Here is where we will add all the info for the meeting")
 
                 
@@ -36,6 +43,7 @@ struct CreateMeetingView: View {
             
             
         }
+            
         }
         
         
