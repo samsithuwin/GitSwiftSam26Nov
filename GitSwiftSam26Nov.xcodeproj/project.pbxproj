@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -21,6 +21,7 @@
 		22BE1FE52B13A72F00244F57 /* GitSwiftSam26NovUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BE1FE42B13A72F00244F57 /* GitSwiftSam26NovUITests.swift */; };
 		22BE1FE72B13A72F00244F57 /* GitSwiftSam26NovUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BE1FE62B13A72F00244F57 /* GitSwiftSam26NovUITestsLaunchTests.swift */; };
 		22BF12792B6306C1005244A4 /* 12JanSAK.db in Resources */ = {isa = PBXBuildFile; fileRef = 22BF12782B6306C1005244A4 /* 12JanSAK.db */; };
+		22CAE8E12B767F3A0067D8DE /* StarCache in Frameworks */ = {isa = PBXBuildFile; productRef = 22CAE8E02B767F3A0067D8DE /* StarCache */; };
 		22E15D1C2B521BC500241C9D /* db.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E15D1B2B521BC500241C9D /* db.swift */; };
 		22E7FFA62B506EA500A1B398 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22E7FFA52B506EA500A1B398 /* Storyboard.storyboard */; };
 		22E7FFAC2B507B8B00A1B398 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 22E7FFAA2B507B8B00A1B398 /* Model.xcdatamodeld */; };
@@ -73,6 +74,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				227639BE2B4DEBF0006255CB /* SQLite in Frameworks */,
+				22CAE8E12B767F3A0067D8DE /* StarCache in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +196,7 @@
 			name = GitSwiftSam26Nov;
 			packageProductDependencies = (
 				227639BD2B4DEBF0006255CB /* SQLite */,
+				22CAE8E02B767F3A0067D8DE /* StarCache */,
 			);
 			productName = GitSwiftSam26Nov;
 			productReference = 22BE1FC32B13A72E00244F57 /* GitSwiftSam26Nov.app */;
@@ -269,6 +272,7 @@
 			mainGroup = 22BE1FBA2B13A72E00244F57;
 			packageReferences = (
 				227639BC2B4DEBF0006255CB /* XCRemoteSwiftPackageReference "SQLite.swift" */,
+				22CAE8DF2B767F3A0067D8DE /* XCLocalSwiftPackageReference "../../../../Downloads/StarCache-main" */,
 			);
 			productRefGroup = 22BE1FC42B13A72E00244F57 /* Products */;
 			projectDirPath = "";
@@ -680,6 +684,13 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCLocalSwiftPackageReference section */
+		22CAE8DF2B767F3A0067D8DE /* XCLocalSwiftPackageReference "../../../../Downloads/StarCache-main" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "../../../../Downloads/StarCache-main";
+		};
+/* End XCLocalSwiftPackageReference section */
+
 /* Begin XCRemoteSwiftPackageReference section */
 		227639BC2B4DEBF0006255CB /* XCRemoteSwiftPackageReference "SQLite.swift" */ = {
 			isa = XCRemoteSwiftPackageReference;
@@ -696,6 +707,10 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 227639BC2B4DEBF0006255CB /* XCRemoteSwiftPackageReference "SQLite.swift" */;
 			productName = SQLite;
+		};
+		22CAE8E02B767F3A0067D8DE /* StarCache */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = StarCache;
 		};
 /* End XCSwiftPackageProductDependency section */
 

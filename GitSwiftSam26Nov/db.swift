@@ -45,7 +45,7 @@ func addUserToDB(_ meeting: String, date: Stirng){
             print("path to DB: \(path) \n\n")
             let db = try Connection(path)
             let meeting = Table("meetings")
-            let insert = meeting.insert(name <- name, email <-date)
+//            let insert = meeting.insert(name <- name, email <-date)
                 let rowid = try db.run(insert)
         }
         
