@@ -7,12 +7,40 @@
 
 import SwiftUI
 
-struct motionView: View {
+
+struct MotionView: View {
+    // State variable to hold the formatted date string
+    @State private var currentDate: String = ""
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Text("Current Date:")
+                .font(.title)
+                .padding()
+
+            Text(currentDate)
+                .font(.headline)
+                .padding()
+
+            // Button to update the date
+            Button("Update Date") {
+                updateCurrentDate()
+            }
+            .padding()
+        }
+    }
+
+    // Function to update the formatted date string
+    func updateCurrentDate() {
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "yyyy-MM-dd HH:mm:ss" // Customize the format as needed
+
+        currentDate = dateFormatter.string(from: Date())
     }
 }
 
-#Preview {
-    motionView()
+struct MotionView_Previews: PreviewProvider {
+    static var previews: some View {
+        MotionView()
+    }
 }

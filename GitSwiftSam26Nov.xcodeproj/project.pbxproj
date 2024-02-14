@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,6 +11,7 @@
 		227639C02B4DEC36006255CB /* MeetingMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227639BF2B4DEC36006255CB /* MeetingMainView.swift */; };
 		227639C22B4DEDBA006255CB /* CreateMeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227639C12B4DEDBA006255CB /* CreateMeetingView.swift */; };
 		227639C52B4DF2FA006255CB /* motionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227639C42B4DF2FA006255CB /* motionView.swift */; };
+		228202D12B644A36001C33C8 /* 24ObjC1F.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228202D02B644A36001C33C8 /* 24ObjC1F.swift */; };
 		22BE1FC72B13A72E00244F57 /* GitSwiftSam26NovApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BE1FC62B13A72E00244F57 /* GitSwiftSam26NovApp.swift */; };
 		22BE1FC92B13A72E00244F57 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BE1FC82B13A72E00244F57 /* ContentView.swift */; };
 		22BE1FCB2B13A72E00244F57 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BE1FCA2B13A72E00244F57 /* Item.swift */; };
@@ -19,6 +20,11 @@
 		22BE1FDB2B13A72F00244F57 /* GitSwiftSam26NovTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BE1FDA2B13A72F00244F57 /* GitSwiftSam26NovTests.swift */; };
 		22BE1FE52B13A72F00244F57 /* GitSwiftSam26NovUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BE1FE42B13A72F00244F57 /* GitSwiftSam26NovUITests.swift */; };
 		22BE1FE72B13A72F00244F57 /* GitSwiftSam26NovUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BE1FE62B13A72F00244F57 /* GitSwiftSam26NovUITestsLaunchTests.swift */; };
+		22BF12792B6306C1005244A4 /* 12JanSAK.db in Resources */ = {isa = PBXBuildFile; fileRef = 22BF12782B6306C1005244A4 /* 12JanSAK.db */; };
+		22CAE8E12B767F3A0067D8DE /* StarCache in Frameworks */ = {isa = PBXBuildFile; productRef = 22CAE8E02B767F3A0067D8DE /* StarCache */; };
+		22E15D1C2B521BC500241C9D /* db.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E15D1B2B521BC500241C9D /* db.swift */; };
+		22E7FFA62B506EA500A1B398 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22E7FFA52B506EA500A1B398 /* Storyboard.storyboard */; };
+		22E7FFAC2B507B8B00A1B398 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 22E7FFAA2B507B8B00A1B398 /* Model.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +48,7 @@
 		227639BF2B4DEC36006255CB /* MeetingMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingMainView.swift; sourceTree = "<group>"; };
 		227639C12B4DEDBA006255CB /* CreateMeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateMeetingView.swift; sourceTree = "<group>"; };
 		227639C42B4DF2FA006255CB /* motionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = motionView.swift; sourceTree = "<group>"; };
+		228202D02B644A36001C33C8 /* 24ObjC1F.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 24ObjC1F.swift; sourceTree = "<group>"; };
 		22BE1FC32B13A72E00244F57 /* GitSwiftSam26Nov.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitSwiftSam26Nov.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22BE1FC62B13A72E00244F57 /* GitSwiftSam26NovApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitSwiftSam26NovApp.swift; sourceTree = "<group>"; };
 		22BE1FC82B13A72E00244F57 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,6 +61,11 @@
 		22BE1FE02B13A72F00244F57 /* GitSwiftSam26NovUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitSwiftSam26NovUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22BE1FE42B13A72F00244F57 /* GitSwiftSam26NovUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitSwiftSam26NovUITests.swift; sourceTree = "<group>"; };
 		22BE1FE62B13A72F00244F57 /* GitSwiftSam26NovUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitSwiftSam26NovUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		22BF12782B6306C1005244A4 /* 12JanSAK.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = 12JanSAK.db; sourceTree = "<group>"; };
+		22E15D1B2B521BC500241C9D /* db.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = db.swift; sourceTree = "<group>"; };
+		22E15D1D2B521C7000241C9D /* 12JanSAK.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = 12JanSAK.db; sourceTree = "<group>"; };
+		22E7FFA52B506EA500A1B398 /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		22E7FFAB2B507B8B00A1B398 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +74,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				227639BE2B4DEBF0006255CB /* SQLite in Frameworks */,
+				22CAE8E12B767F3A0067D8DE /* StarCache in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +101,8 @@
 				227639BF2B4DEC36006255CB /* MeetingMainView.swift */,
 				227639C42B4DF2FA006255CB /* motionView.swift */,
 				227639C12B4DEDBA006255CB /* CreateMeetingView.swift */,
+				22E7FFA52B506EA500A1B398 /* Storyboard.storyboard */,
+				22E7FFA92B507B3D00A1B398 /* SQLiteManager */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -122,6 +137,7 @@
 				22BE1FCC2B13A72F00244F57 /* Assets.xcassets */,
 				22BE1FCE2B13A72F00244F57 /* GitSwiftSam26Nov.entitlements */,
 				22BE1FCF2B13A72F00244F57 /* Preview Content */,
+				22E15D1B2B521BC500241C9D /* db.swift */,
 			);
 			path = GitSwiftSam26Nov;
 			sourceTree = "<group>";
@@ -129,7 +145,9 @@
 		22BE1FCF2B13A72F00244F57 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				22E15D1D2B521C7000241C9D /* 12JanSAK.db */,
 				22BE1FD02B13A72F00244F57 /* Preview Assets.xcassets */,
+				228202D02B644A36001C33C8 /* 24ObjC1F.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -151,6 +169,15 @@
 			path = GitSwiftSam26NovUITests;
 			sourceTree = "<group>";
 		};
+		22E7FFA92B507B3D00A1B398 /* SQLiteManager */ = {
+			isa = PBXGroup;
+			children = (
+				22BF12782B6306C1005244A4 /* 12JanSAK.db */,
+				22E7FFAA2B507B8B00A1B398 /* Model.xcdatamodeld */,
+			);
+			path = SQLiteManager;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -169,6 +196,7 @@
 			name = GitSwiftSam26Nov;
 			packageProductDependencies = (
 				227639BD2B4DEBF0006255CB /* SQLite */,
+				22CAE8E02B767F3A0067D8DE /* StarCache */,
 			);
 			productName = GitSwiftSam26Nov;
 			productReference = 22BE1FC32B13A72E00244F57 /* GitSwiftSam26Nov.app */;
@@ -244,6 +272,7 @@
 			mainGroup = 22BE1FBA2B13A72E00244F57;
 			packageReferences = (
 				227639BC2B4DEBF0006255CB /* XCRemoteSwiftPackageReference "SQLite.swift" */,
+				22CAE8DF2B767F3A0067D8DE /* XCLocalSwiftPackageReference "../../../../Downloads/StarCache-main" */,
 			);
 			productRefGroup = 22BE1FC42B13A72E00244F57 /* Products */;
 			projectDirPath = "";
@@ -263,6 +292,8 @@
 			files = (
 				22BE1FD12B13A72F00244F57 /* Preview Assets.xcassets in Resources */,
 				22BE1FCD2B13A72F00244F57 /* Assets.xcassets in Resources */,
+				22BF12792B6306C1005244A4 /* 12JanSAK.db in Resources */,
+				22E7FFA62B506EA500A1B398 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,8 +319,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				22BE1FC92B13A72E00244F57 /* ContentView.swift in Sources */,
+				22E15D1C2B521BC500241C9D /* db.swift in Sources */,
+				228202D12B644A36001C33C8 /* 24ObjC1F.swift in Sources */,
 				22BE1FCB2B13A72E00244F57 /* Item.swift in Sources */,
 				227639C52B4DF2FA006255CB /* motionView.swift in Sources */,
+				22E7FFAC2B507B8B00A1B398 /* Model.xcdatamodeld in Sources */,
 				227639C22B4DEDBA006255CB /* CreateMeetingView.swift in Sources */,
 				227639C02B4DEC36006255CB /* MeetingMainView.swift in Sources */,
 				22BE1FC72B13A72E00244F57 /* GitSwiftSam26NovApp.swift in Sources */,
@@ -650,6 +684,13 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCLocalSwiftPackageReference section */
+		22CAE8DF2B767F3A0067D8DE /* XCLocalSwiftPackageReference "../../../../Downloads/StarCache-main" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "../../../../Downloads/StarCache-main";
+		};
+/* End XCLocalSwiftPackageReference section */
+
 /* Begin XCRemoteSwiftPackageReference section */
 		227639BC2B4DEBF0006255CB /* XCRemoteSwiftPackageReference "SQLite.swift" */ = {
 			isa = XCRemoteSwiftPackageReference;
@@ -667,7 +708,24 @@
 			package = 227639BC2B4DEBF0006255CB /* XCRemoteSwiftPackageReference "SQLite.swift" */;
 			productName = SQLite;
 		};
+		22CAE8E02B767F3A0067D8DE /* StarCache */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = StarCache;
+		};
 /* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		22E7FFAA2B507B8B00A1B398 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				22E7FFAB2B507B8B00A1B398 /* Model.xcdatamodel */,
+			);
+			currentVersion = 22E7FFAB2B507B8B00A1B398 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 22BE1FBB2B13A72E00244F57 /* Project object */;
 }
