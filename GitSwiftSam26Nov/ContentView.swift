@@ -30,8 +30,9 @@ struct ContentView: View {
                     }
                 }
             }
-            .navigationTitle("Home MO")
-           
+//            .navigationTitle("Meeting Organizer")
+            .navigationTitle( "Today's MO")
+                    
         }
     }
 }
